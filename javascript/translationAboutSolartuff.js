@@ -7,7 +7,6 @@ if (! localStorage.noFirstVisit) {
 
 function changetext() {
     const desc = document.getElementById("desctext")
-    console.log("test")
     setTimeout(() => {
         desc.classList.toggle("fadeThenUnfadeAnimation")
     }, 1000);

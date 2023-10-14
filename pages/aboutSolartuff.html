@@ -18,7 +18,6 @@
         <a href="contactUs.html" class="hw cu">Contact Us</a>
         <a onclick="changetext();" class="translateButton" id="translateButton">EN | ID</a>
     </header>
-    <h1 class="mainTitle">About Solartuff</h1>
     <section class="fullscreensmall" id="fillbackground">
         <div class="headercontainer">
             <a href="../index.html" class="smallheader">Home</a>
@@ -28,7 +27,8 @@
             <a href="contactUs.html" class="smallheader">Contact Us</a>
         </div>
     </section>
-    <img src="../images/3s.png" alt="" class="tripleShield" id="tripleShield" height="250" onclick="selid(this.id)">
+    <img src="../images/3s.png" alt="" class="tripleShield" id="tripleShield" height="250" onclick="tripleShieldExpand(this.id)">
+    <h1 class="mainTitle">About Solartuff</h1>
     <div class="foregroundFocus" id="yay"></div>
     <button class="exitButton" id="exitButton">X</button>
 
@@ -45,7 +45,7 @@
             The guaranteed after-sales service has also been a testament to the seriousness of SolarTuff as a manufacturer in providing maximum comfort and peace to consumers while using this product. Join our loyal customers to experience more benefits that are not obtained from old conventional products.
             <br><br><br><br>
         </p>
-        <script src="../javascript/reveal.js"></script>
+        <script src="../javascript/certificateRevealAnimation.js"></script>
         <div class="flexcontainer footer">
             <div class="certificatesContainer"><img src="../images/certificate.png" alt="" height="100" class="certificate certificateAnimationTrigger"></div>
             <p class="watermark">Made By Dayton &nbsp;<a href=":d.japaryo@gmail.com">d.japaryo@gmail.com</a></p>
@@ -53,10 +53,10 @@
     </div>
     
     
-    <script src="../javascript/translationapi.js"></script>
+    <script src="../javascript/translationAboutSolartuff.js"></script>
     <script src="../javascript/headercontrol.js"></script>
-    <script src="../javascript/gallbig.js"></script>
-    <script src="../javascript/3dotnohidden.js"></script>
-    <script src="../javascript/animation.js"></script>
+    <script src="../javascript/tripleShieldExpand.js"></script>
+    <script src="../javascript/navigationThreeDotsController.js"></script>
+    <script src="../javascript/animationFixForTripleShield.js"></script>
 </body>
 </html>

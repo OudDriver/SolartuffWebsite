@@ -1,6 +1,6 @@
-let selid = (getid) => {
+let tripleShieldExpand = (getElementID) => {
     const id = document.getElementById("exitButton")
-    const element = document.getElementById(getid);
+    const element = document.getElementById(getElementID);
     const blackout = document.getElementById("yay");
     const changebig = () => {
         element.classList.add("imgActive")

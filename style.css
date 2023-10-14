@@ -125,11 +125,10 @@ img {
 .tripleShield {
     position: absolute;
     right: 15%;
-    top: 26%;
     transform: translate(50%, -35%);
     z-index: 10;
     overflow: hidden;
-    height: 15vw;
+    height: 18vw;
     transition: all 200ms ease;
 }
 
@@ -348,6 +347,7 @@ table td {
     font-size: 20px;
     display: flex;
     justify-content: center;
+    text-align: center;
     color: var(--main-color);
 }
 
@@ -503,7 +503,7 @@ table td {
     .tripleShield {
         display: block;
         position: static;
-        width: 40vw;
+        width: 60vw;
         height: auto;
         transform: none;
         margin: 20vw auto 0 auto;
@@ -543,8 +543,8 @@ table td {
     }
 
     .mainTitle {
-        margin-top: 20vw;
-        font-size: 10vw;
+        margin-top: 10vw;
+        font-size: 15vw;
         animation: titleSlideSmall 1s ease-out;
         overflow: hidden;
         color: white;
