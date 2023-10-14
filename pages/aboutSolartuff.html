@@ -1,39 +1,39 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solartuff | Home Page</title>
+    <title>Solartuff | About Solartuff</title>
     <link rel="stylesheet" href="../style.css">
-    <script src="../src/javascript/onstart.js"></script>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 <body>
-    <header id="header">
-        <h1 id="h1">Solartuff</h1>
-        <a href="../index.html" class="hw home" >Home &nbsp;|</a>
-        <a href="about.html" class="hw as" >About SolarTuff &nbsp;|</a>
-        <a href="pk.html" class="hw pk">Product Knowledge &nbsp;|</a>
-        <a href="pd.html" class="hw">Product Selection &nbsp;|</a>
-        <a href="contactus.html" class="hw cu">Contact Us</a>
-        <img class="dotdotdot" src="https://assets.codepen.io/3/kiwi.svg" id="3dots" class="kiwibird">
-        <button onclick="changetext();" class="translatebutton" id="hw2">EN | ID</button>
+    <header >
+        <img class="dotdotdot" src="../images/3 dots.svg" id="3dots" class="kiwibird" alt="...">
+        <a href="../index.html" id="homeButton" >Solartuff</a>
+        <a href="aboutSolartuff.html" class="hw as" >About SolarTuff &nbsp;|</a>
+        <a href="productKnowledge.html" class="hw pk">Product Knowledge &nbsp;|</a>
+        <a href="productSelection.html" class="hw">Product Selection &nbsp;|</a>
+        <a href="contactUs.html" class="hw cu">Contact Us</a>
+        <a onclick="changetext();" class="translateButton" id="translateButton">EN | ID</a>
     </header>
-    <h1 class="abtsolartuff">About Solartuff</h1>
+    <h1 class="mainTitle">About Solartuff</h1>
     <section class="fullscreensmall" id="fillbackground">
         <div class="headercontainer">
             <a href="../index.html" class="smallheader">Home</a>
-            <a href="about.html" class="smallheader">About SolarTuff</a>
-            <a href="pk.html" class="smallheader">Product Knowledge</a>
-            <a href="pd.html" class="smallheader">Product Selection</a>
-            <a href="contactus.html" class="smallheader">Contact Us</a>
+            <a href="aboutSolartuff.html" class="smallheader">About SolarTuff</a>
+            <a href="productKnowledge.html" class="smallheader">Product Knowledge</a>
+            <a href="productSelection.html" class="smallheader">Product Selection</a>
+            <a href="contactUs.html" class="smallheader">Contact Us</a>
         </div>
     </section>
-    <img src="../images/3s.png" alt="" class="trish" id="trish" height="250" onclick="selid(this.id)">
-    <div class="background-focus" id="yay"></div>
-    <button class="xbutton" id="xbutton">X</button>
-    <div class="black" id="yay"></div>
+    <img src="../images/3s.png" alt="" class="tripleShield" id="tripleShield" height="250" onclick="selid(this.id)">
+    <div class="foregroundFocus" id="yay"></div>
+    <button class="exitButton" id="exitButton">X</button>
+
     <div class="bottom"> 
-        <p class="atext" id="desctext">
+        <p class="description" id="desctext">
             SolarTuff - Solar Water Heater was established in 2011 to meet the demand for hot water usage oriented towards environmentally friendly “Green Energy” conservation. With renewable technology researched by German scientists who carry the 'Vacuum Tube' technology, SolarTuff immediately dominates the middle market who wants quality products at competitive prices.
             <br><br>
             The 'Vacuum Tube' technology has the advantage of replacing the previous technology which still relies a lot on electrical energy to help its performance. Round and vacuum glass tube design, effectively absorbs solar energy all day long and prevents heat loss, which is difficult to obtain from products with conventional technology.
@@ -45,17 +45,18 @@
             The guaranteed after-sales service has also been a testament to the seriousness of SolarTuff as a manufacturer in providing maximum comfort and peace to consumers while using this product. Join our loyal customers to experience more benefits that are not obtained from old conventional products.
             <br><br><br><br>
         </p>
-        <script src="../src/javascript/reveal.js"></script>
-        <div class="flexcontainer cerfstuff">
-            <div class="imagecontainer"><img src="../images/certificate.png" alt="" height="100" class="cerf demo"></div>
-            <p class="watermark">Made By Dayton &nbsp;<a href="mailto:d.japaryo@gmail.com">d.japaryo@gmail.com</a></p>
+        <script src="../javascript/reveal.js"></script>
+        <div class="flexcontainer footer">
+            <div class="certificatesContainer"><img src="../images/certificate.png" alt="" height="100" class="certificate certificateAnimationTrigger"></div>
+            <p class="watermark">Made By Dayton &nbsp;<a href=":d.japaryo@gmail.com">d.japaryo@gmail.com</a></p>
         </div>
     </div>
     
     
-    <script src="../src/javascript/translationapi.js"></script>
-    <script src="../src/javascript/headercontrol.js"></script>
-    <script src="../src/javascript/gallbig.js"></script>
-    <script src="../src/javascript/3dotnohidden.js"></script>
+    <script src="../javascript/translationapi.js"></script>
+    <script src="../javascript/headercontrol.js"></script>
+    <script src="../javascript/gallbig.js"></script>
+    <script src="../javascript/3dotnohidden.js"></script>
+    <script src="../javascript/animation.js"></script>
 </body>
 </html>

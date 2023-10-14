@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solartuff | Product Selection</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img class="dotdotdot" src="../images/3 dots.svg" id="3dots" class="kiwibird" alt="...">
+        <a href="../index.html" id="homeButton" >Solartuff</a>
+        <a href="aboutSolartuff.html" class="hw as" >About SolarTuff &nbsp;|</a>
+        <a href="productKnowledge.html" class="hw pk">Product Knowledge &nbsp;|</a>
+        <a href="productSelection.html" class="hw">Product Selection &nbsp;|</a>
+        <a href="contactUs.html" class="hw cu">Contact Us</a>
+        <a onclick="changetext();" class="translateButton" id="translateButton">EN | ID</a>
+    </header>
+    <section class="fullscreensmall" id="fillbackground">
+        <div class="headercontainer">
+        <a href="../index.html" class="smallheader">Home</a>
+        <a href="aboutSolartuff.html" class="smallheader">About SolarTuff</a>
+        <a href="productKnowledge.html" class="smallheader">Product Knowledge</a>
+        <a href="productSelection.html" class="smallheader">Product Selection</a>
+        <a href="contactUs.html" class="smallheader">Contact Us</a>
+        </div>
+    </section>
+    <img src="../images/3s.png" alt="" class="tripleShield" id="tripleShield" height="250" onclick="selid(this.id)">
+    <h1 class="mainTitle">Product Selection</h1>
+    <div class="foregroundFocus" id="yay"></div>
+    <button class="exitButton" id="exitButton">X</button>
+
+    <div class="bottom"> 
+        <p class="description" id="desctext">
+            <strong class="targetTranslateText" id="header">SolarTuff provides 3 capacity options that can be tailored to consumer needs.</strong>
+            <br>
+            <br>
+            <p id="class1" class="targetTranslateText description">SolarTuff SWH-GS150SSC : The smallest SolarTuff production line with a capacity of 150 liters, suitable for small families. A very affordable price and compact size, are the main considerations in choosing this type.</p>
+            <br>
+            <p id="class2" class="targetTranslateText description">SolarTuff SWH-GS200SSC : Production of the SolarTuff line with a capacity of 200 liters, the right choice for middle-size families. If budget is not a problem, small family consumers are advised to choose this type. The greater the capacity, the more available hot water stock.</p>
+            <br>
+            <p id="class3" class="targetTranslateText description">SolarTuff SWH-GS300SSC : The largest SolarTuff production line with a capacity of 300 liters, the type that is very suitable for large families. If the available installation area is large enough and for the use of a lot of hot water, this type of selection is the most appropriate. It can also be applied in hotels, guest houses, boarding houses and if needed can be installed in parallel according to the number of users.</p>
+            <br>
+            <table width="58%" class="margincenter targetTranslateText">
+                <tbody>
+                    <tr>
+                        <td id="row1"><span>Product Model</span></td>
+                        <td id="row2"><span>Tubes Qty.</span></td>
+                        <td id="row3"><span>Tank (L)</span></td>
+                        <td id="row4"><span>Absorbing Area (m<sup>2</sup>)</span></td>
+                        <td id="row5"><span>Weight (KG)</span></td>
+                        <td id="row6"><span>Dimensions (L * B * H)mm</span></td>
+                        <td id="row7"><span>Capacity</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>SWH-GS150SSC</span></td>
+                        <td><span>15</span></td>
+                        <td><span>150L</span></td>
+                        <td><span>1.15</span></td>
+                        <td><span>67</span></td>
+                        <td><span>1250 * 2100 * 1250</span></td>
+                        <td id="c2row7"><span>3-4 Persons</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>SWH-GS200SSC</span></td>
+                        <td><span>20</span></td>
+                        <td><span>200L</span></td>
+                        <td><span>1.52</span></td>
+                        <td><span>85</span></td>
+                        <td><span>1600 * 2100 * 1250</span></td>
+                        <td id="c3row7"><span>5-6 Persons</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>SWH-GS300SSC</span></td>
+                        <td><span>30</span></td>
+                        <td><span>300L</span></td>
+                        <td><span>2.29</span></td>
+                        <td><span>117</span></td>
+                        <td><span>2500 * 2100 * 1250</span></td>
+                        <td id="c4row7"><span>&gt;8 Persons</span></td>
+                    </tr>
+                </tbody>
+        </table>
+        <script src="../javascript/reveal.js"></script>
+        <br>
+        <div class="flexcontainer footer">
+            <div class="certificatesContainer"><img src="../images/certificate.png" alt="" height="100" class="certificate certificateAnimationTrigger"></div>
+            <p class="watermark">Made By Dayton &nbsp;<a href=":d.japaryo@gmail.com">d.japaryo@gmail.com</a></p>
+        </div>
+    </div>
+    
+    
+    <script src="../javascript/translationProductSelection.js"></script>
+    <script src="../javascript/headercontrol.js"></script>
+    <script src="../javascript/gallbig.js"></script>
+    <script src="../javascript/3dotnohidden.js"></script>
+    <script src="../javascript/animation.js"></script>
+</body>
+</html>

@@ -35,14 +35,14 @@ function changeparttext() {
     }
 }
 function changetext() {
-    const anim = document.querySelectorAll(".anim")
+    const targetTranslateText = document.querySelectorAll(".targetTranslateText")
     setTimeout(() => {
-        for (let i = 0; i < anim.length; i++) {
-            anim[i].classList.toggle("abanim")
+        for (let i = 0; i < targetTranslateText.length; i++) {
+            targetTranslateText[i].classList.toggle("fadeThenUnfadeAnimation")
         }
     }, 1000);
-    for (let i = 0; i < anim.length; i++) {
-        anim[i].classList.toggle("abanim")
+    for (let i = 0; i < targetTranslateText.length; i++) {
+        targetTranslateText[i].classList.toggle("fadeThenUnfadeAnimation")
     }
     setTimeout(() => {
         changeparttext()

@@ -5,7 +5,6 @@ const fillbackground = document.getElementById('fillbackground');
 const hide = () => {
     for (var i = 0; i < h.length; i++) {
         h[i].remove();
-        console.log(i)
     }
 }
 
@@ -15,7 +14,7 @@ const show = () => {
     }
 }
 
-if (width < 725) {
+if (width < 734) {
     dots.classList.add('d3active');
     hide();
     dots.onclick = function(){

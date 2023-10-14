@@ -4,7 +4,7 @@ const title2 = document.getElementById("title2");
 const part21 = document.getElementById("part21");
 const part22 = document.getElementById("part22");
 const part23 = document.getElementById("part23");
-const anim = document.querySelectorAll(".anim")
+const targetTranslateText = document.querySelectorAll(".targetTranslateText")
 
 
 const title1text = "Prinsip Kerja";
@@ -47,12 +47,12 @@ function changeparttext() {
 }
 function changetext() {
     setTimeout(() => {
-        for (let i = 0; i < anim.length; i++) {
-            anim[i].classList.toggle("abanim")
+        for (let i = 0; i < targetTranslateText.length; i++) {
+            targetTranslateText[i].classList.toggle("fadeThenUnfadeAnimation")
         }
     }, 1000);
-    for (let i = 0; i < anim.length; i++) {
-        anim[i].classList.toggle("abanim")
+    for (let i = 0; i < targetTranslateText.length; i++) {
+        targetTranslateText[i].classList.toggle("fadeThenUnfadeAnimation")
     }
     setTimeout(() => {
         changeparttext()
